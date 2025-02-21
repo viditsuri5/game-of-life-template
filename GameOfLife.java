@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 public class GameOfLife implements Board {
 
+    // Integers: 0 or 1 for alive or dead
     private int[][] board;
 
     public GameOfLife(int x, int y)
@@ -27,7 +28,7 @@ public class GameOfLife implements Board {
     public void step()
     {
         print();
-        // Update the game board
+        // Update the game board, store a 1 if the cell is alive and a 0 otherwise.
     }
 
 

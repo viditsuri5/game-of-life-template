@@ -26,7 +26,7 @@ public class TestSuite {
         // Test update state
         board.step();
         board.print();
-        pass &= expect(board.get(2,2), 1, "Expect line to rotate");
+        pass &= expect(board.get(2,3), 1, "Expect line to rotate");
 
         if (pass == true)
         {
